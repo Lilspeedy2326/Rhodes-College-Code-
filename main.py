@@ -30,9 +30,9 @@ else:
     B = 2.5*5 + .12*time
 C = 5+.06*time
 
-if A<B<C:
+if A<B and A<C:
     print("use company A")
-elif B<A<C:
+elif B<A and B<C:
     print("use company B")
-elif C<B<A:
+elif C<B and C<A:
     print("use company C")
